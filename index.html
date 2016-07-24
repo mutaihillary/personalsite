@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="foundation.min.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
@@ -34,7 +34,7 @@
       <div class="row column text-center">
             <!--<img src="images/me.jpeg" alt="header" />-->
         <h1>HILLARY MUTAI</h1>
-        <h3 id="me">UI Designer|Developer Front End</h3>
+        <h3 class="animated infinite bounce">UI Designer|Developer Front End</h3>
         <p>I love cool   </p>
 
         <p class="lead"><q cite="">Unless We are Ready to loose the sight of a beach we can't explore a new islands</q></p>
@@ -113,18 +113,6 @@
       <div class="column">
         <img class="thumbnail" src="http://placehold.it/550x550">
       </div>
-      <div class="column">
-        <img class="thumbnail" src="http://placehold.it/550x550">
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="http://placehold.it/550x550">
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="http://placehold.it/550x550">
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="http://placehold.it/550x550">
-      </div>
     </div>
   </div>
 
@@ -133,12 +121,28 @@
     <div id="contact">
     <div class="row">
       <div class="medium-6 columns">
-        <h3>contact Inform</h3>
+        <h3>Contact Inform</h3>
         <p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna.</p>
       </div>
       <div class="medium-6 columns">
         <h3>Hooked Me Up</h3>
-        <p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna.</p>
+
+        <form class="" action="index.html" method="post">
+          <label>
+                NAME
+                <input type="text" name="Name" placeholder="Full Name Required">
+              </label>
+                <label>
+                EMAIL ADDRESS
+                <input type="email" name="Email Address" placeholder="@example.com">
+                </label>
+                <label>
+                MESSAGE
+                <textarea name="comments"></textarea>
+                </label>
+                <input class="button" type="submit" value="Submit">
+        </form>
+
       </div>
     </div>
     </div>
@@ -158,7 +162,7 @@
       $(document).foundation();
     </script>
     <script>
-    $(document).ready(function();
+    function formValidation();
     </script>
   </body>
 </html>
