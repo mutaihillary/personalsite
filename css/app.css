@@ -7,12 +7,25 @@ html {
   }
 
   /*Remove default margin*/
-
 #home{
 background-image: url("../images/me.jpeg");
 background-color: red;
 }
-  /*portfolio*/
+  /*contact*/
+  .social{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    height: 470px;
+    width: 300px;
+    background: transparent;
+    text-align: center;
+}
+
+.social i{
+
+    color: #8C8788;
+}
 
 
 /* HTML5 display definitions
