@@ -20,16 +20,16 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   line-height: 1.2;
-  padding: 5vw 1em;
+  padding: 10vw 2em;
   text-align: center;
 }
 
 .img1 {
   display: inline-block;
-  height: 90vh;
+  height: 100vh;
+  vertical-align: top;
   width: 100%;
   position: relative;
-  margin-top: 0 auto;
 }
 header h1 {
   color: white;
