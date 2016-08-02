@@ -92,7 +92,7 @@ enterprise solutions, corporate identity and content management </p>
 </div>
 
     <!-- Contact-->
-    <div id="contact">
+    <div id="contact" style="font-family:'Raleway', Sans-serif; background: #342d2f; color:eff;">
     <div class="row">
       <div class="medium-6 columns">
         <h3>Contact Inform</h3>
@@ -108,7 +108,7 @@ enterprise solutions, corporate identity and content management </p>
       <div class="medium-6 columns">
         <h3>Hook Me Up</h3>
 
-        <form action="#" method="post" onsubmit="return function formValidation()">
+        <form action="#" method="post" name="form_validate">
           <label>
                 NAME
                 <input type="text" name="Name" placeholder="Full Name Required" required="">
@@ -121,7 +121,7 @@ enterprise solutions, corporate identity and content management </p>
                 MESSAGE
                 <textarea name="comments"></textarea>
                 </label>
-                <input class="button" type="submit" value="Submit">
+                <input type="submit" value="Send Message" id="submit" onclick="formValidation();">
         </form>
 
       </div>
@@ -142,8 +142,6 @@ enterprise solutions, corporate identity and content management </p>
     <script>
       $(document).foundation();
     </script>
-    <script>
-    function formValidation();
-    </script>
+    <script src="js/js-form-validation.js"></script>
   </body>
 </html>
