@@ -6,15 +6,15 @@ html {
   -webkit-text-size-adjust: 100%;
   }
   body{
-    margin: 0 auto;
-  max-width: 70em;
+  margin: 0 auto;
+  max-width: 100em;
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
-  padding: 4em 1em;
+  padding: 0em 1em;
   color: #555;
   }
-  header {
-  background-color: #263d36;
+/*  header {
+  background-color: yellow;
   background-image: url("images/header.jpg");
   background-position: center top;
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@ header h1 {
   color: white;
   font-size: 2.5em;
   font-weight: 300;
-}
+}*/
 
 header a {
   border: 1px solid #e81c4f;
