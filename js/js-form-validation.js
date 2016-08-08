@@ -44,10 +44,4 @@ function ValidateEmail(uemail)
     return false;
   }*/
 
-else
-{
-alert('Form Succesfully Submitted');
-window.location.reload()
-return true;
-}
 }
