@@ -128,6 +128,40 @@ html {
 .fa fa-arrows-alt{
   padding-left: 5px;
 }
+
+/* portfolio */
+.portfolio{
+  font-size: 48px;
+  color:blue;
+  overflow:hidden;
+  position: relative;
+  top:0;
+  left:0;
+  z-index: 1;
+  text-align: left;
+}
+.portfolio:hover{
+  margin-right:1em;
+  transition: all .5s linear;
+}
+.portfolio img:hover{
+  width:400px;
+  height:276px;
+  transition: all .5s linear;
+}
+.content{
+  position: absolute;
+  top:0;
+  left:0;
+  width:400px;
+  height:276px;
+  z-index: -100;
+  background-color:red;
+}
+ .content p{
+  padding: 1em 1em 1em 1em;
+}
+
 /* Media Query */
 /* Small only */
 @media screen and (max-width: 39.9375em) {}
