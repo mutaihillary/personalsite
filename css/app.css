@@ -5,7 +5,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   }
-  /*header*/
+  /*..................................................................................
+HEADER
+..................................................................................*/
   header a {
     border: 1px solid #B7B4E5;
     border-radius: 290486px;
@@ -13,7 +15,7 @@ html {
     font-size: 1.4em;
     letter-spacing: 0.2em;
     padding: 1em 2em;
-    text-transform: lowercase;
+    text-transform: uppercase;
     text-decoration: none;
     transition: none 200ms ease-out;
     transition-property: color, background;
@@ -75,8 +77,9 @@ html {
   background-color: palette;
   color: #555;
   }
-  /*home*/
-
+  /*..................................................................................
+HOME
+..................................................................................*/
 #home{
   background-image:url("../images/watch.jpg");
   background-size: cover;
@@ -108,12 +111,18 @@ html {
 #fa fa-angle-double-down{
   padding-left: 50%;
 }
+/*..................................................................................
+ABOUT
+..................................................................................*/
 #about{
   align-content: center;
   line-height: 4.0em;
   font-family: 'Tangerine', serif;
   font-size: 24px;
 }
+/*..................................................................................
+CONTACT
+..................................................................................*/
 #contact{
   padding-bottom: 30px;
 }
@@ -133,7 +142,9 @@ i{
   padding-left: 5px;
 }
 
-/* portfolio */
+/*..................................................................................
+PORTFOLIO
+..................................................................................*/
 .portfolio{
   font-size: 48px;
   color:blue;
@@ -169,7 +180,10 @@ i{
 /* Media Query */
 /* Small only */
 @media screen and (max-width: 39.9375em) {
-
+body{
+  background: navy;
+  header a:100%;
+}
 }
 
 /* Medium and up */
