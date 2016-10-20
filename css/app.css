@@ -89,6 +89,9 @@ footer {
 	form {
 		max-width: 70%;
 	}
+	p{
+		max-width: 40%
+	}
 }
 
 ul {
@@ -233,7 +236,9 @@ p {
 .sec-services {
 	background: #351431;
 }
-
+￼
+Retail Distribution & Marketing
+The Retail Outlets in Kenya average over 100,000 in number with an average daily purchase of Kshs. 3,000 presenting a market share potential of over Kshs 7.5 billion per month in sales experienced in this market if accessibility to these outlets is efficient and effective. Kaskazi though their channels will connect you to 
 
 /*Testimonials*/
 
@@ -283,8 +288,11 @@ footer {
 .container-fluid>.navbar-collapse {
 	margin-right: -205px;
 	margin-left: -100px;
+.text-center:40%;
 }
-
+img {
+	width:100%
+}
 #about {
 	background-color: #FFF8F0;
 }
